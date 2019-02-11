@@ -1,6 +1,6 @@
 ---
 title: About
 layout: default
-permalink: /about/
+link: /about/
 ---
 About
