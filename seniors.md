@@ -1,6 +1,6 @@
 ---
 title: Resources for Seniors
 layout: default
-link: /seniors/
+permalink: /seniors/
 ---
-About
+Resources
