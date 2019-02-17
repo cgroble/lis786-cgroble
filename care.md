@@ -4,4 +4,4 @@ layout: default
 permalink: /care/
 ---
 
-# Finances and Tax Help #
+# Care #
