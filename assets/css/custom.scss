@@ -60,14 +60,14 @@ body {
 
 .content-left{
     @media all and (min-width: 960px){
-      width:66%;
+      width:60%;
       float: left;
       padding: 20px;
     }
 }
 .img-right {
   @media all and (min-width: 960px) {
-    width: 33%;
+    width: 40%;
     float: right;
   }
 }
