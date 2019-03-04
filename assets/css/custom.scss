@@ -27,18 +27,16 @@ nav {
   padding: 10px;
 }
 
-body {
-  color: #000000;
-}
+
 
 .heading1 {
-  font-size: 40px;
+  font-size: 30px;
   color: #000000;
 }
 
 .heading2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   color:#000000;
 
 }
@@ -47,7 +45,7 @@ body {
   background-color: rgba(#000000, .10);
   font-size: 25px;
   padding:20px;
-  margin-right: 400px;
+  margin-right: 40px;
   border-color:#000000;
 
 }
@@ -60,14 +58,14 @@ body {
 
 .content-left{
     @media all and (min-width: 960px){
-      width:60%;
+      width:66%;
       float: left;
       padding: 20px;
     }
 }
 .img-right {
   @media all and (min-width: 960px) {
-    width: 40%;
+    width: 33%;
     float: right;
   }
 }
