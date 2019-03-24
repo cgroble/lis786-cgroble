@@ -20,8 +20,8 @@ layout: default
 
       Resources below:
       {% for all_resources in site.all_resources %}
-        {{ Resources.title}}
-        {{ Resources.content}}
+        {{ all_resources.title}}
+        {{ all_resources.content}}
       {% endfor %}
   </div>
 
