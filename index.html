@@ -11,11 +11,24 @@ layout: default
 </head>
 
 <body>
-  Resources below:
-  {% for items in site.Resources %}
-    {{ Resources.title}}
-    {{ Resources.content}}
-  {% endfor %}
+  <div class="content-left">
+    <h1 class="heading1"> Here you will find resources and information on tax preparation, caregivers, care facilities and library resources. </h1>
+
+    <h2 class="heading2">I am looking for help with: </h2>
+
+    <div class="table-of-contents">
+
+      Resources below:
+      {% for all_resources in site.all_resources %}
+        {{ Resources.title}}
+        {{ Resources.content}}
+      {% endfor %}
+  </div>
+
+  <div class="img-right">
+    <img src="{{'/assets/images/seniors1.jpg' | relative_url }}" alt="image of seniors"></img>
+  </div>
+
 </body>
 
 </html>
