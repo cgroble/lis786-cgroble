@@ -1,4 +1,4 @@
 ---
-title: Library Resources
+title: Finances
 ---
 Content
