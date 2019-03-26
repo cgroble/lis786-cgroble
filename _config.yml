@@ -1,3 +1,7 @@
 theme: jekyll-theme-cayman
 repository: cgroble/cgroble-lis786.github.io
 title: Resources for Seniors and Caregivers
+collections:
+  resources:
+    output: true
+    layout: Resources

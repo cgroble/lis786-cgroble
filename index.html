@@ -2,25 +2,22 @@
 title: Home
 layout: default
 ---
-
-
-<body>
-  <div class="content-left">
+<div class="content-left">
     <h1 class="heading1"> Here you will find resources and information on tax preparation, caregivers, care facilities and library resources. </h1>
 
     <h2 class="heading2">I am looking for help with: </h2>
 
     <div class="table-of-contents">
 
-      Resources below:
-      {% for all_resources in site.all_resources %}
-        {{ all_resources.title}}
-        {{ all_resources.content}}
-      {% endfor %}
+    <h2> Resources below: </h2>
+    {% for resource in site.resources %}
+      <div class="resource">
+        <h3>{{ resource.title}} </h3>
+        <p> {{ resource.content}}</p>
+      </div>
+    {% endfor %}
   </div>
 
   <div class="img-right">
     <img src="{{'/assets/images/seniors1.jpg' | relative_url }}" alt="image of seniors"></img>
   </div>
-
-</body>
