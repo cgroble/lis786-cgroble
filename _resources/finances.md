@@ -1,4 +1,0 @@
----
-title: Finances
----
-Content

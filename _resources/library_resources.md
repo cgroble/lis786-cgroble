@@ -1,4 +1,4 @@
 ---
 title: Library Resources
 ---
-Content
+The library offers many services for seniors, including a homebound delivery program for eligible adults.

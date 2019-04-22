@@ -1,4 +1,4 @@
 ---
 title: Resources for Caregivers
 ---
-Content
+Barrington has many community organizations and support groups dedicated to supporting caregivers.

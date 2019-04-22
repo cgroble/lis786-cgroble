@@ -3,21 +3,23 @@ title: Home
 layout: default
 ---
 <div class="content-left">
-    <h1 class="heading1"> Here you will find resources and information on tax preparation, caregivers, care facilities and library resources. </h1>
+      <h2> Here you will find resources and information on senior living, caregivers, care facilities and library resources. </h2>
 
-    <h2 class="heading2">I am looking for help with: </h2>
 
-    <div class="table-of-contents">
 
-    <h2> Resources below: </h2>
+        <div class="table-of-contents">
+
+     <div class="heading2" Resources below: </div>
     {% for resource in site.resources %}
       <div class="resource">
         <h3>{{ resource.title}} </h3>
         <p> {{ resource.content}}</p>
       </div>
     {% endfor %}
-  </div>
+        </div>
+</div>
+</div>
 
   <div class="img-right">
-    <img src="{{'/assets/images/seniors1.jpg' | relative_url }}" alt="image of seniors"></img>
+      <img src="{{'/assets/images/seniors1.jpg' | relative_url }}" alt="image of seniors"></img>
   </div>

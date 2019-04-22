@@ -10,8 +10,11 @@
 }
 
 nav {
-  display: flex;
-  justify-content: center;
+  @media all and (min-width: 480px) {
+    display: flex;
+    justify-content: center;
+  }
+
   .btn {
     background-color: rgba(#ffffff, .25);
     border-color: #ffffff;
@@ -20,6 +23,7 @@ nav {
     min-width: 50px;
     display: inline-block;
     font-size: 20px;
+    margin-bottom:0;
   }
 }
 
@@ -30,14 +34,22 @@ nav {
 
 
 .heading1 {
-  font-size: 30px;
+  font-size: 20px;
   color: #000000;
+  padding-bottom:10px;
 }
 
 .heading2 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   color:#000000;
+  padding-bottom:10px;
+
+}
+
+.heading3 {
+  font-size: 25px;
+  color:#159957;
 
 }
 
@@ -61,14 +73,14 @@ nav {
 
 .content-left{
     @media all and (min-width: 960px){
-      width:66%;
+      width:60%;
       float: left;
-      padding: 20px;
+      padding: 10px;
     }
 }
 .img-right {
   @media all and (min-width: 960px) {
-    width: 33%;
+    width: 30%;
     float: right;
     margin: 16px;
   }
