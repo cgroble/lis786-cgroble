@@ -18,5 +18,6 @@ Second Tuesday of each month.
 <div class="heading3">Additional Resources</div>
 <a href="https://www.aarp.org/caregiving/?cmp=RDRCT-CRGNG_APR12_012" alt="AARP Caregiving Resource Center">AARP Caregiving Resource Center</a>
 <br>Answers basic questions about caregiving, homecare, finances and legal issues concerned with caregiving and community support.
+<br>
 <br><a href="https://www.caring.com/" alt="caring homepage">Caring.com</a>
 <br>Offers advice for caregivers
