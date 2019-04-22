@@ -3,5 +3,6 @@ repository: cgroble/cgroble-lis786.github.io
 title: Resources for Seniors and Caregivers
 collections:
   resources:
+  seniorResources:
     output: true
     layout: Resources

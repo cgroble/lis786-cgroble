@@ -1,0 +1,12 @@
+---
+title: Resources for Seniors
+layout: default
+permalink: /seniors/
+---
+<div class="heading3"> Local Resources</div>
+{% for resource in site.seniorResources %}
+  <div class="resource">
+    <h3>{{ resource.title}} </h3>
+    <p> {{ resource.content}}</p>
+  </div>
+{% endfor %}
